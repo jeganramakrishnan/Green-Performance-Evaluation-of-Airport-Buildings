@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+        integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Charan work</title>
+</head>
+<body>
+    <div class="container column is-half">
+        
+        <p class="title">Green Performance Evaluation of Airport Operations</p>
+
+        <div class="field">
+            <label class="label">Aircraft Movements (1000's) </label>
+            <div class="control">
+                <input id = "f1" class="input" type="number" placeholder="Enter the value" >
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Passenger Numbers (M)</label>
+            <div class="control">
+                <input id= "f2" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Cargo Tons (M)</label>
+            <div class="control">
+                <input id="f3" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Energy Usage (MkWh)</label>
+            <div class="control">
+                <input id="f4" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Energy Savings (MkWh) </label>
+            <div class="control">
+                <input id="f5" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Water Usage (M m<sup>3</sup>)</label>
+            <div class="control">
+                <input id="f6" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Water Savings (1000 m<sup>3</sup>)</label>
+            <div class="control">
+                <input id="f7" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Wastewater Generation (M m<sup>3</sup>)</label>
+            <div class="control">
+                <input id="f8" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Wastewater Recycling (1000 m<sup>3</sup>)</label>
+            <div class="control">
+                <input id="f9" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Solid Waste Generation (1000 T)</label>
+            <div class="control">
+                <input id="f10" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Waste Recycling Rate (%)</label>
+            <div class="control">
+                <input id="f11" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Hazardous Waste Generation (T)</label>
+            <div class="control">
+                <input id="f12" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Scope 1 Emissions (1000 tCO<sub>2</sub>e)</label>
+            <div class="control">
+                <input id="f13" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Scope 2 Emissions (1000 tCO<sub>2</sub>e)</label>
+            <div class="control">
+                <input id="f14" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Scope 3 Emissions (1000 tCO<sub>2</sub>e)</label>
+            <div class="control">
+                <input id="f15" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">GHG Emission Savings (1000 tCO<sub>2</sub>e)</label>
+            <div class="control">
+                <input id="f16" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Carbon Emissions per Passenger (kg)</label>
+            <div class="control">
+                <input id="f17" class="input" type="number" placeholder="Enter the value">
+            </div>
+        </div>
+        
+
+        <div class="control">
+            <button id="btn" class="button is-primary">Submit</button>
+        </div>
+    </div>
+
+    <section style="visibility: hidden;">
+        <div class="container column is-2" id="result">
+            
+
+        </div>
+    </section>
+
+    
+</body>
+    <script src="index.js"></script>
+</html>
